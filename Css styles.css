@@ -1,0 +1,183 @@
+/*code task for task1css*/
+.a1{
+    border:1px solid rgb(30, 28, 28);
+    width:970px;
+    height: 20px;
+    border-radius: 10px;
+    justify-content: center;
+    background-color:rgb(95, 158, 160);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    height: 130px;
+}
+.class-container{
+    display: flex;
+    justify-content: center;
+    height: 130px;
+}
+.last-container{
+    display: flex;
+    justify-content: center;
+    height: 130px;
+    position: relative;
+}
+.curved-rectangle{
+    width: 90px;
+    height:90px;
+    border: 3px solid rgb(154,205,50);
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    margin-right: 20px;/* Spacing between shapes */
+  }
+  .rectangle{
+    width: 90px;
+    height:90px;
+    border: 3px solid rgb(154,205,50);
+    margin-right: 20px;/* Spacing between shapes */
+  }
+  .square {
+    width: 100px;
+    height: 80px;
+    border: 3px solid rgb(154,205,50); 
+    border-radius: 25px; 
+  }
+  .oval {
+    width:120px; /* Set the width of the oval */
+    height:60px; /* Set the height of the oval */
+    border: 3px solid rgb(154,205,50);
+    margin-right: 20px; 
+    border-radius: 50%; /* Make the element elliptical */
+    position:left;
+  }
+  .semi-Square{
+    width: 100px;
+    height:80px;
+    border: 3px solid rgb(154,205,50);
+    border-top-left-radius: 1px;
+    border-top-right-radius: 14px;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 1px;
+    margin-right: 20px;
+  }
+
+
+/*task 3 for css*/
+.content-table{
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 700px;
+  height: 200px;
+  font-family: Tahoma (sans-serif);
+}
+.content-table thead tr{
+  background-color:rgb(60,179,113);
+  color:#ffff;
+  text-align:left;
+  font-weight: bold;
+  font-size: medium;
+  font-family: Tahoma (sans-serif);
+  
+}
+.content-table th,
+.content-table td{
+  padding: 12px 15px;
+  font-family: Tahoma (sans-serif);
+  
+}
+.content-table tbody tr{
+  border-bottom:1px solid #dddddd;
+
+}
+.content-table tbody tr:nth-of-type(odd) {
+  background-color: rgb(220,220,220);
+ 
+}
+
+/*task 4 css code*/
+.sidenav a{
+  position:absolute;
+  left: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none ; 
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+ }
+ .sidenav a:hover{
+   left: 0; 
+ }
+ #Java{
+   top:60px;
+   background-color:#04aa6d;
+ }
+ #HTML{
+   top:120px;
+   background-color: #2196f3
+   
+ }
+ #CSS{
+   top: 180px;
+   background-color: #f44336;
+ }
+ #JavaScript{
+   top:240px;
+   background-color: #555;
+ }
+ .bodycontent{
+     margin-left:80px;
+ }
+ .h2hover{
+   top: 80px;
+     text-align:center;
+ }
+ .phover{
+     top: 80px;
+     text-align:center;
+ }
+/*task 5 css code*/
+.stylepage {
+  padding-left: 11em;
+  font-family: Georgia, "Times New Roman",
+        Times, serif;
+  color: purple;
+  background-color: #d8da3d ;
+}
+ul.navbar {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 2em;
+  left: 1em;
+  width: 9em 
+}
+h1 {
+  font-family: Helvetica, Geneva, Arial,SunSans-Regular, sans-serif
+      }
+ul.navbar li {
+  background: white;
+  margin: 0.5em 0;
+  padding: 0.3em;
+  border-right: 1em solid black 
+}
+ul.navbar a {
+  text-decoration: none 
+}
+a:link {
+  color: blue 
+}
+a:visited {
+  color: purple 
+}
+address {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: thin dotted ;
+}

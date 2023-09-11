@@ -1,0 +1,166 @@
+/*task 6 css*/
+form {
+    border: 3px solid #f1f1f1;
+}      
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+ 
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+ 
+button:hover {
+    opacity: 0.8;
+}
+ 
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+img.imagecontainer {
+    width: 40%;
+    border-radius: 50%;
+}    
+.container {
+    padding: 16px;
+}
+ 
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 200px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 150px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+}
+/*task 7 css*/
+
+* {
+    margin: 0
+  }
+  
+  .container-register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:rgb(194, 30, 86);
+    height: 100vh;
+  }
+  
+  .container-register h1 {
+    color: white;
+    font-family: sans-serif;
+    margin: 20px;
+  }
+  
+  .registartion-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-family: sans-serif;
+    background-color:rgb(119, 7, 55);
+    padding: 20px;
+    height: 60vh;
+  }
+  
+  .registartion-form input,
+  .registartion-form select,
+  .registartion-form textarea {
+    border: none;
+    padding: 5px;
+    margin-top: 10px;
+    font-family: sans-serif;
+  }
+  
+  .registartion-form input:focus,
+  .registartion-form textarea:focus {
+    box-shadow: 3px 3px 10px rgb(228, 228, 228), -3px -3px 10px rgb(224, 224, 224);
+  }
+  
+  .registartion-form .submit {
+    width: 100%;
+    padding: 8px 0;
+    font-size: 20px;
+    color: rgb(44, 44, 44);
+    background-color: #ffffff;
+    border-radius: 5px;
+  }
+  
+  .registartion-form .submit:hover {
+    box-shadow: 3px 3px 6px rgb(255, 214, 176);
+  }
+  @media screen and (max-width: 300px) {
+    .registartion-form input,
+  .registartion-form select,
+  .registartion-form textarea {
+        display: block;
+        float: none;
+    }
+   
+}
+@media screen and (max-width: 200px) {
+    .registartion-form input,
+    .registartion-form select,
+    .registartion-form textarea {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 150px) {
+    .registartion-form input,
+    .registartion-form select,
+    .registartion-form textarea{
+        display: block;
+        float: none;
+    }
+
+}
